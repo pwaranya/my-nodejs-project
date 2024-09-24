@@ -1,0 +1,69 @@
+.container{
+    display: grid;
+    grid-template-rows: repeat(3,150px);
+    grid-template-columns: repeat(4,150px);
+    grid-gap: 1em;
+}
+
+.item-1{
+    position: relative;
+    top: 10px;
+    left: 100px;
+    background-color: aqua;
+}
+
+.item-2{
+    background-color: red;
+}
+
+.item-3{
+    position: absolute;
+    top: 100px;
+    left: 15px;
+    background-color: rebeccapurple;
+}
+
+.item-4{
+    background-color: yellow;
+}
+
+.item-5{
+    position: fixed;
+    top: 50px;
+    right: 50px;
+    background-color: blue;
+}
+
+.item-6{
+    background-color: greenyellow;
+}
+
+.item-7{
+    position: relative;
+    left: 200px;
+    top: 50px;
+    background-color: gold;
+}
+
+.item-8{
+    position: sticky;
+    top: 100px;
+    right: 100px;
+    background-color: green;
+}
+
+.item-9{
+    background-color: violet;
+}
+
+.item-10{
+    background-color: skyblue;
+}
+
+.item-11{
+    background-color: salmon;
+}
+
+.item-12{
+    background-color: silver;
+}
